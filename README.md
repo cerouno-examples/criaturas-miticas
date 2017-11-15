@@ -4,7 +4,7 @@
 
 Este es un repositorio que contiene ejercicios para prácticar *Test-Driven Development* con JavaScript.
 
-#### Instalación
+### Instalación
 
 Para instalar estos ejercicios en tu computadora, clona este repositorio con ejecutando el siguiente comando en tu terminal:
 
@@ -24,7 +24,7 @@ Para correr las pruebas ejecuta el siguiente comando en tu terminal:
 $ npm test
 ```
 
-#### Ejercicios
+### Ejercicios
 
 Puedes encontrar las pruebas en `/test`. Puedes encontrar las clases en `/lib`. Para resolver los ejercicios, corre las pruebas, y ve implementando la funcionalidad uno a uno.
 
