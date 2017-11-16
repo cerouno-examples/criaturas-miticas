@@ -26,16 +26,24 @@ $ npm test
 
 ### Ejercicios
 
-Puedes encontrar las pruebas en `/test`. Puedes encontrar las clases en `/lib`. Para resolver los ejercicios, corre las pruebas, y ve implementando la funcionalidad uno a uno.
+Puedes encontrar las pruebas en `/test`. Las pruebas están saltadas. Para ejecutar la prueba, remueve la `x` antes de `xit`.
+
+Puedes encontrar las clases en `/lib`. Para resolver los ejercicios, corre las pruebas, y ve implementando la funcionalidad uno a uno.
+
+Puedes correr las pruebas de un sólo archivo con este comando:
+
+```bash
+$ mocha test/<nombre del archivo de prueba>.js
+```
 
 El orden sugerido es el siguiente:
 
-1. UnicornSpec.js
-2. VampireSpec.js
-3. DragonSpec.js
-4. HobbitSpec.js
-5. PirateSpec.js
-6. WizardSpec.js
-7. MedusaSpec.js
-8. WerewolfSpec.js
-9. CentaurSpec.js
+1. `UnicornSpec.js`
+2. `VampireSpec.js`
+3. `DragonSpec.js`
+4. `HobbitSpec.js`
+5. `PirateSpec.js`
+6. `WizardSpec.js`
+7. `MedusaSpec.js`
+8. `WerewolfSpec.js`
+9. `CentaurSpec.js`
