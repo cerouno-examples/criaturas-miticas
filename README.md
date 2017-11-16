@@ -6,10 +6,10 @@ Este es un repositorio que contiene ejercicios para prácticar *Test-Driven Deve
 
 ### Instalación
 
-Para instalar estos ejercicios en tu computadora, clona este repositorio con ejecutando el siguiente comando en tu terminal:
+Para instalar estos ejercicios en tu computadora, primero haz `fork` de este repositorio en [Github](https://github.com), y luego clónalo ejecutando el siguiente comando en tu terminal:
 
 ```bash
-$ git clone https://github.com/cerouno-examples/criaturas-miticas.git
+$ git clone https://github.com/<tu usuario>/criaturas-miticas.git
 ```
 
 Una vez clonado el código, para instalar las dependencias, ejecuta el siguiente comando en tu terminal desde el directorio de tu repositorio:
