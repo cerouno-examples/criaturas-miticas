@@ -18,6 +18,12 @@ Una vez clonado el código, para instalar las dependencias, ejecuta el siguiente
 $ npm install
 ```
 
+Asegúrate de tener installado `Mocha` y `Chai`. Puedes instalar estas librerias con este comando:
+
+```bash
+$ npm install -g mocha && npm install -g chai
+```
+
 Para correr las pruebas ejecuta el siguiente comando en tu terminal:
 
 ```bash
