@@ -16,20 +16,20 @@ describe('Hobbit', function(){
   })
 
   xit('has a homebody personality by default', function() {
-    var hobbot = new Hobbit('Samwise');
+    var hobbit = new Hobbit('Samwise');
 
     expect(hobbit).to.have.property('personality');
     expect(hobbit.personality).to.equal('hogareño');
   })
 
   xit('can have a different personality', function() {
-    var hobbot = new Hobbit('Frodo', 'aventurero');
+    var hobbit = new Hobbit('Frodo', 'aventurero');
 
     expect(hobbit.personality).to.equal('aventurero');
   })
 
   xit('grows older when celebrating birthdays', function() {
-    var hobbot = new Hobbit('Meriadoc');
+    var hobbit = new Hobbit('Meriadoc');
 
     expect(hobbit.age).to.equal(0);
 
@@ -50,7 +50,7 @@ describe('Hobbit', function(){
   })
 
   xit('is a child at 32 years old', function() {
-    var hobbot = new Hobbit('Gerontius');
+    var hobbit = new Hobbit('Gerontius');
 
     var age = 0;
     while (age < 32) {
@@ -63,7 +63,7 @@ describe('Hobbit', function(){
   })
 
   xit('is an adult at 33 years old', function() {
-    var hobbot = new Hobbit('Otho');
+    var hobbit = new Hobbit('Otho');
 
     var age = 0;
     while (age < 33) {
