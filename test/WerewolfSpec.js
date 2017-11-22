@@ -11,7 +11,7 @@ describe('Werewolf', function() {
   xit('has a location', function() {
     var werewolf = new Werewolf('David');
 
-    expect(werewolf.location).to.equal('David', 'London');
+    expect(werewolf.location).to.equal('London');
   })
 
   xit('is human by default', function() {
