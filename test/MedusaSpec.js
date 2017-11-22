@@ -1,5 +1,6 @@
 const expect = require('chai').expect;
 const Medusa = require('../lib/Medusa.js');
+const Person = require('../lib/Person.js');
 
 describe('Medusa', function(){
   xit('has a name', function() {
