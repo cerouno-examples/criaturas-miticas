@@ -50,15 +50,15 @@ describe('Dragon', function(){
   xit('eats a lot', function() {
     dragon = new Dragon('Canth', 'café', 'F\'nor');
 
-    expect(dragon.isHungry).to.be.true;
+    expect(dragon.isHungry()).to.be.true;
 
     dragon.eat();
-    expect(dragon.isHungry).to.be.true;
+    expect(dragon.isHungry()).to.be.true;
 
     dragon.eat();
-    expect(dragon.isHungry).to.be.true;
+    expect(dragon.isHungry()).to.be.true;
 
     dragon.eat();
-    expect(dragon.isHungry).to.not.be.true;
+    expect(dragon.isHungry()).to.not.be.true;
   })
 })

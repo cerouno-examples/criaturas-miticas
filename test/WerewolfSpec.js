@@ -17,7 +17,7 @@ describe('Werewolf', function() {
   xit('is human by default', function() {
     var werewolf = new Werewolf('David');
 
-    expect(werewolf.isHuman).to.be.true;
+    expect(werewolf.isHuman()).to.be.true;
   })
 
   xit('has a change method', function() {
@@ -29,33 +29,33 @@ describe('Werewolf', function() {
   xit('is not human when it changes', function() {
     var werewolf = new Werewolf('David');
     werewolf.change();
-    expect(werewolf.isHuman).to.be.false;
+    expect(werewolf.isHuman()).to.be.false;
   })
 
   xit('is werewolf when it changes', function() {
     var werewolf = new Werewolf('David');
     werewolf.change();
-    expect(werewolf.isWerewolf).to.be.true;
+    expect(werewolf.isWerewolf()).to.be.true;
   })
 
   xit('is human when it changes again', function() {
     var werewolf = new Werewolf('David');
 
-    expect(werewolf.isHuman).to.be.true;
+    expect(werewolf.isHuman()).to.be.true;
     werewolf.change();
-    expect(werewolf.isHuman).to.be.false;
+    expect(werewolf.isHuman()).to.be.false;
     werewolf.change();
-    expect(werewolf.isHuman).to.be.true;
+    expect(werewolf.isHuman()).to.be.true;
   })
 
   xit('is werewolf when it changes again after changing to human', function() {
     var werewolf = new Werewolf('David');
 
     werewolf.change();
-    expect(werewolf.isWerewolf).to.be.true;
+    expect(werewolf.isWerewolf()).to.be.true;
     werewolf.change();
-    expect(werewolf.isWerewolf).to.be.false;
+    expect(werewolf.isWerewolf()).to.be.false;
     werewolf.change();
-    expect(werewolf.isWerewolf).to.be.true;
+    expect(werewolf.isWerewolf()).to.be.true;
   })
 })
